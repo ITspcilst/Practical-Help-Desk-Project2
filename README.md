@@ -1,4 +1,4 @@
-# Practical Help Desk Ticket (Linux User & Group Management)
+# 🛠️ Practical Help Desk Ticket (Linux User & Group Management)
 
 ## 📌 Project Overview
 
@@ -13,3 +13,11 @@ This task demonstrates core Linux administration skills that are essential for I
 * **Create a group** named confidential
 * **Add both users** to the group
 * **Restrict directory permissions** so that only the group and root can access it
+
+## 🧩 Steps I Completed 
+### 1️⃣ **Create the users**
+bash
+'''
+sudo adduser Bertram
+sudo adduser Erlich
+'''
