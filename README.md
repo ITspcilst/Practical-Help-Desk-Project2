@@ -16,8 +16,6 @@ This task demonstrates core Linux administration skills that are essential for I
 
 ## 🧩 Steps I Completed 
 ### 1️⃣ **Create the users**
-bash
-'''
-sudo adduser Bertram
-sudo adduser Erlich
-'''
+
+```sudo adduser Bertram 
+```sudo adduser Erlich
