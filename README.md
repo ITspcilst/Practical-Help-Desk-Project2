@@ -52,11 +52,9 @@ I used standard Linux command-line utilities to meet all ticket requirements.
 | Step | Command | Purpose |
 | :--- | :--- | :--- |
 | **4. Created the /Confidential directory** | `sudo mkdir /Confidential` | Creates the new sensitive directory. |
-| ![Directory created]() |
 | **5. Set secure ownership** | `sudo chown root:root /Confidential` | Ensures the directory is owned by the **`root` user and `root` group**, maintaining central control. |
-| ![Secure ownership]()  |
 | **6. Locked down permissions to root only** | `sudo chmod 700 /Confidential` | Sets the base permissions to **read, write, and execute for the owner (`root`) only**. This denies all access to group members and all other users by default. |
-| ![Lock down permission to root only]() |
+| ![Directory_created_with_lock_down_permission_to_root_only_and_with_secured_ownership]() |
 
 ---
 
