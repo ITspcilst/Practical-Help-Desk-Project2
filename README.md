@@ -7,9 +7,9 @@ This task demonstrates core Linux administration skills that are essential for I
 
 ## 📝 Ticket Requirements
 
-* **Create two new users: Bertram and Erlich**
-* **Force both users to change their passwords on next login**
-* **Create a secure directory accessible only by a specific group**
-* **Create a group named confidential
-* **Add both users to the group**
-* **Restrict directory permissions so that only the group and root can access it**
+* **Create two new users:** Bertram and Erlich
+* **Force both users** to change their passwords on next login
+* **Create a secure directory** accessible only by a specific group
+* **Create a group** named confidential
+* **Add both users** to the group
+* **Restrict directory permissions** so that only the group and root can access it
