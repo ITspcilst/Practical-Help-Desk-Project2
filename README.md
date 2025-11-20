@@ -28,15 +28,17 @@ This task demonstrates core Linux administration skills that are essential for I
 sudo adduser Bertram 
 sudo adduser Erlich
 ```
-![Creating the users]()
+![Creating user Bretram](Screenshots/Adding_user_Bertram.png)
+![Creating user Erlich](Screenshots/Adding_user_Erlich.png)
+
 --
 
 ### 2️⃣ **Create a group named ‘confidential’**
 
 ```
-sudo mkdir /Confidential
+sudo addgroup /confidential
 ```
-![Creating Confidential group]()
+![Creating confidential group](Screenshots/Adding_group_confidential.png)
 
 --
 
@@ -46,7 +48,7 @@ sudo mkdir /Confidential
 sudo usermode -a -G 0 Bertram
 sudo usermode -a -G 0 Erlich
 ```
-![Adding users to Confidential group]()
+![Adding users to Confidential group](Screenshots/Adding_users_to_confidential_group.png)
 
 --
 
@@ -56,7 +58,8 @@ sudo usermode -a -G 0 Erlich
 sudo chage -d 0 Bertram
 sudo chage -d 0 Erlich
 ```
-![Forcing users reset their password]()
+![Password reseting Bertram](Screenshots/Password_Reset_completed_Bertram.png)
+![Password reseting Erlich](Screenshots/Password_Reset_completed_Eldrich.png)
 
 --
 
@@ -73,7 +76,7 @@ sudo mkdir /Confidential
 sudo chown root:confidential /confidential
 sudo chmod 770 /confidential
 ```
-![Secure created directory]()
+![Secure created directory](Screenshots/User_root_group_confidential.png)
 
 --
 
