@@ -17,7 +17,7 @@ This task demonstrates core Linux administration skills that are essential for I
 * **Create a group** named confidential
 * **Add both users** to the group
 * **Restrict directory permissions** so that only the group and root can access it
-![Ticket]()
+![Ticket](Screenshots/Practical_Help_Desk_Real_Life_Ticketing_Simulator.png)
 --
 
 ## 🧩 Steps I Completed 
